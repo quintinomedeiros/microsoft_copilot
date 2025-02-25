@@ -27,3 +27,7 @@ O usuário define os diversos pontos para a criação do agente
 - Ter de 5 a 10 frases dentre de um gatilho e que não conflite com outros gatilhos (de preferência vindas dos usuários)
 - Ter nomes claros e não repetitivos
 - Ter em mente quando dividir os tópitos ou copilotos diferentes, de modo a evitar ramificações grandes demais, favorecendo a manutenção do código com o redirecionamento entre tópicos
+
+**:twisted_rightwards_arrows: Ramificação de tópicos**
+Na ramificação, são incluídas condicionais (novas perguntas) a partir da resposta inicial, para levar o usuário para respostas mais detalhadas conforme sua necessidade.
+Após definir a pergunta, pode-se criar condicionais e as ações a serem tomadas: uma nova pergunta, retornar ou avançar para um passo específico do tópico (alterar comportamento para "Perguntar toda vez"), ir para outro tópico ou encerrar a conversa.
