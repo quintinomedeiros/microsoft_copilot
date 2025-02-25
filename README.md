@@ -22,3 +22,8 @@ O usuário define os diversos pontos para a criação do agente
 :hammer: Pode-se criar um tópico através de prompt, informando o que se deseja e podendo colocar entre colchetes (**[]**) variáveis que será obtidas da soliciação do usuário.
 
 :link: O site https://aka.ms/power-prompts oferece uma galeria colaborativa de prompts modelo que podem ser aproveitados para a criação de copilots
+
+**:ballot_box_with_check: Boas práticas para criação de tópicos**
+- Ter de 5 a 10 frases dentre de um gatilho e que não conflite com outros gatilhos (de preferência vindas dos usuários)
+- Ter nomes claros e não repetitivos
+- Ter em mente quando dividir os tópitos ou copilotos diferentes, de modo a evitar ramificações grandes demais, favorecendo a manutenção do código com o redirecionamento entre tópicos
