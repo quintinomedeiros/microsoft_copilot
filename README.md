@@ -33,6 +33,6 @@ O usuário define os diversos pontos para a criação do agente
 Na ramificação, são incluídas condicionais (novas perguntas) a partir da resposta inicial, para levar o usuário para respostas mais detalhadas conforme sua necessidade.
 Após definir a pergunta, pode-se criar condicionais e as ações a serem tomadas: uma nova pergunta, retornar ou avançar para um passo específico do tópico (alterar comportamento para "Perguntar toda vez"), ir para outro tópico ou encerrar a conversa.
 
-## :x: Lidando com alhas no Copilot
+## :x: Lidando com falhas no Copilot
 
 Atualmente temos duas alternativas para definir ações para falhas no Copilot: utilizar IA Gnerativa para dar uma respota ou utilizar Fallback do Sistema (oferecer um canal de atendimento ou registrar as falhas e encaminhar para uma equipe - escalonar), que é um Tópico do Sistema
