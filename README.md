@@ -18,3 +18,6 @@ O usuário define os diversos pontos para a criação do agente
 - **Tópicos de sistema** são criados pela própria Microsoft (respostas comuns como saudação, frases não aceitas etc.)
 - **Tópicos customizados** são criados para a partir do gatilho com frases do usuário, disparar uma ou mais ações
 - Atualmente, têm sido substituído pela inteligência generativa, que consegue gerar respostas a partir de uma base de conhecimento (ações com conectores)
+
+:hammer: Pode-se criar um tópico através de prompt, informando o que se deseja e podendo colocar entre colchetes (**[]**) variáveis que será obtidas da soliciação do usuário.
+O site https://aka.ms/power-prompts oferece uma galeria colaborativa de prompts modelo que podem ser aproveitados para a criação de copilots
