@@ -1,5 +1,5 @@
 # Microsoft Copilot
-No site https://copilotstudio.microsoft.com/ é possível criar a partir de um Ambiente e Solução copilotos personalizados.
+No site https://copilotstudio.microsoft.com/ é possível criar a partir de um Ambiente (https://admin.powerplatform.microsoft.com) e Solução (https://make.powerapps.com/) copilotos personalizados.
 
 ## A partir de um modelo
 Existem diversos modelos com bases de conhecimentos próprias para a criação de copilots: viagens; perguntas e respostas do site; navegador de equipes; assistência técnica de TI; operações de lojas; insights inanceiros; etc...
