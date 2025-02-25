@@ -51,3 +51,7 @@ Existem **entidades predefinidas** como idade, cidade, verdadeiro ou falso, cor;
 
 As **variáveis** servem para salvar respotas do usuário e reutilizar seu conteúdo posteriormente na conversa. Também podem ser empregadas em expressões lógicas que direcionam dinamicamente o usuário por diferentes caminhos na conversa.
 
+As variáveis podem ser **de tópico**, que tem escopo restrito ao tópico no qual sao criadas; **globais** tem escopo de sessão, mantendo-se enquanto a conversa não é encerrada; **de sistema** criadas pela microsoft (dados do usuário, canais); e **de ambiente** variáveis customizadas criadas pela solução ou ambiente.
+
+Os **tipos bases das variáveis** são cadeia de caracteres, booleano, número, tabela, registro, DateTime, opção e em branco.
+
