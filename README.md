@@ -39,10 +39,15 @@ Atualmente temos duas alternativas para definir ações para falhas no Copilot: 
 
 ##  :symbols: Entidades e Variáveis
 
-### Entidades 
+### :capital_abcd: Entidades 
 
-Compreende uma parte significtiva ds conversas do copiloto, pois envolve o reconhecimento de linguagem natural, que é a capacidade da IA de compreender a interação do usuário. Uma **entidade** é uma unidade de informação que represnta um certo tipo de assunto.
+Compreende uma parte significtiva ds conversas do copiloto, pois envolve o reconhecimento de linguagem natural, que é a capacidade da IA de compreender a interação do usuário. Uma **entidade** é uma unidade de informação que representa um certo tipo de assunto. Facilitam as entradas do usuário sem a necessidade de usar a parte de Resposta Generativa ou AI Builder dentro do Copilot Studio para reconhecer informações já mapeadas.
 
 O **preenchicmento de slot** é um conceito de reconhecimento de linguagem natural que significa salvar uma entidade extraída para um objeto. No Copilot, significa colocar o **valor da entidade** extraída em uma **variável**.
 
-### Variáveis 
+Existem **entidades predefinidas** como idade, cidade, verdadeiro ou falso, cor; e **entidades personalizadas**, que podem ser criadas através de uma lista fechada (closed list) ou expressão regular (regex para .NET), disponível em **Configurações/Entidades**.
+
+### :abcd: Variáveis 
+
+As **variáveis** servem para salvar respotas do usuário e reutilizar seu conteúdo posteriormente na conversa. Também podem ser empregadas em expressões lógicas que direcionam dinamicamente o usuário por diferentes caminhos na conversa.
+
