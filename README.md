@@ -36,3 +36,13 @@ Após definir a pergunta, pode-se criar condicionais e as ações a serem tomada
 ## :x: Lidando com falhas no Copilot
 
 Atualmente temos duas alternativas para definir ações para falhas no Copilot: utilizar IA Gnerativa para dar uma respota ou utilizar Fallback do Sistema (oferecer um canal de atendimento ou registrar as falhas e encaminhar para uma equipe - escalonar), que é um Tópico do Sistema
+
+##  :symbols: Entidades e Variáveis
+
+### Entidades 
+
+Compreende uma parte significtiva ds conversas do copiloto, pois envolve o reconhecimento de linguagem natural, que é a capacidade da IA de compreender a interação do usuário. Uma **entidade** é uma unidade de informação que represnta um certo tipo de assunto.
+
+O **preenchicmento de slot** é um conceito de reconhecimento de linguagem natural que significa salvar uma entidade extraída para um objeto. No Copilot, significa colocar o **valor da entidade** extraída em uma **variável**.
+
+### Variáveis 
