@@ -14,4 +14,7 @@ O usuário define os diversos pontos para a criação do agente
 
 ## :scroll: Tópicos
 
-- São conversas dentro de um copilot
+- São conversas fixas dentro de um copilot, que permitem seguir fluxos pré-definidos de informação, melhorando a experiência na conversa com o usuário
+- **Tópicos de sistema** são criados pela própria Microsoft (respostas comuns como saudação, frases não aceitas etc.)
+- **Tópicos customizados** são criados para a partir do gatilho com frases do usuário, disparar uma ou mais ações
+- Atualmente, têm sido substituído pela inteligência generativa, que consegue gerar respostas a partir de uma base de conhecimento (ações com conectores)
