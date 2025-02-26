@@ -71,4 +71,5 @@ Exemplos de uso mais comuns:
 - **Mostrar a data atual:** = Today().
 - **Formatá-la:** = Format(Today(), "dddd, MMMM d, yyyy") (exibe, por exemplo, "Wednesday, February 26, 2025").
 - **Decidir respostas com base em condições:** If(Mood = "happy", "Great to hear that!", "Sorry to hear that.").
-- **Contar itens em uma lista:** = CountIf(List, Condition). 
+- **Contar itens em uma lista:** = CountIf(List, Condition).
+- **Guardar histórico da conversa:** Concatenate(Global.varHistoricoConversa, "Nova mensagem: ", Topic.VarValorDoServico, Topic.locLinkLugarDeInspiracao)
