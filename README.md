@@ -73,3 +73,5 @@ Exemplos de uso mais comuns:
 - **Decidir respostas com base em condições:** If(Mood = "happy", "Great to hear that!", "Sorry to hear that.").
 - **Contar itens em uma lista:** = CountIf(List, Condition).
 - **Guardar histórico da conversa:** Concatenate(Global.varHistoricoConversa, "Nova mensagem: ", Topic.VarValorDoServico, Topic.locLinkLugarDeInspiracao)
+
+  ## :robot: Resposta Generativa
