@@ -75,3 +75,7 @@ Exemplos de uso mais comuns:
 - **Guardar histórico da conversa:** Concatenate(Global.varHistoricoConversa, "Nova mensagem: ", Topic.VarValorDoServico, Topic.locLinkLugarDeInspiracao)
 
   ## :robot: Resposta Generativa
+
+No copilot, ao criar uma respota, pode-se selecionar em "Avançado" a opção "Resposta Generativa".
+
+Ela recebe como parâmetros a última resposta do usuário ("Activity.Text") e as bases de conhecimento.
