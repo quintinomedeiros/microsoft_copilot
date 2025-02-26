@@ -55,3 +55,21 @@ As variáveis podem ser **de tópico**, que tem escopo restrito ao tópico no qu
 
 Os **tipos bases das variáveis** são cadeia de caracteres, booleano, número, tabela, registro, DateTime, opção e em branco.
 
+## :negative_squared_cross_mark: Funções ([Power FX]([url](https://learn.microsoft.com/pt-br/power-platform/power-fx/overview)))
+
+O Power Fx é a linguagem de pouco código, de uso geral, fortemente tipada, declarativa e funcional; com a qual os criadores podem trabalhar diretamente em uma barra de fórmulas semelhante ao Excel ou uma janela de texto do Visual Studio Code.
+
+As fórmulas começam com "=" e podem usar funções como Today() ou Format(), operadores como "&" para concatenação, e referências a variáveis com prefixos específicos (ex.: System.Conversation.Id para acessar o ID da conversa).
+
+No contexto de copilots, há uma ênfase especial no uso de prefixos para indicar o escopo das variáveis, como:
+
+**- System.:** Para variáveis do sistema, como System.Conversation.Id, que acessa o ID da conversa, conforme mencionado em Create expressions using Power Fx.
+**- Global.: **Para variáveis globais, úteis para compartilhar dados entre diferentes partes do copilot.
+**- Topic.:** Para variáveis específicas de tópicos, usadas em fluxos de conversa.
+
+Exemplos de uso mais comuns:
+
+**- Mostrar a data atual:** = Today().
+**- Formatá-la:** = Format(Today(), "dddd, MMMM d, yyyy") (exibe, por exemplo, "Wednesday, February 26, 2025").
+**- Decidir respostas com base em condições:** If(Mood = "happy", "Great to hear that!", "Sorry to hear that.").
+**- Contar itens em uma lista: ** = CountIf(List, Condition). 
