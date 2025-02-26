@@ -15,7 +15,7 @@ O usuário define os diversos pontos para a criação do agente
 ## :scroll: Tópicos
 
 - São conversas fixas dentro de um copilot, que permitem seguir fluxos pré-definidos de informação, melhorando a experiência na conversa com o usuário
-- **Tópicos de sistema** são criados pela própria Microsoft (respostas comuns como saudação, frases não aceitas etc.)
+  **Tópicos de sistema** são criados pela própria Microsoft (respostas comuns como saudação, frases não aceitas etc.)
 - **Tópicos customizados** são criados para a partir do gatilho com frases do usuário, disparar uma ou mais ações
 - Atualmente, têm sido substituído pela inteligência generativa, que consegue gerar respostas a partir de uma base de conhecimento (ações com conectores)
 
@@ -62,14 +62,13 @@ O Power Fx é a linguagem de pouco código, de uso geral, fortemente tipada, dec
 As fórmulas começam com "=" e podem usar funções como Today() ou Format(), operadores como "&" para concatenação, e referências a variáveis com prefixos específicos (ex.: System.Conversation.Id para acessar o ID da conversa).
 
 No contexto de copilots, há uma ênfase especial no uso de prefixos para indicar o escopo das variáveis, como:
-
-**- System.:** Para variáveis do sistema, como System.Conversation.Id, que acessa o ID da conversa, conforme mencionado em Create expressions using Power Fx.
-**- Global.: **Para variáveis globais, úteis para compartilhar dados entre diferentes partes do copilot.
-**- Topic.:** Para variáveis específicas de tópicos, usadas em fluxos de conversa.
+- **System.:** Para variáveis do sistema, como System.Conversation.Id, que acessa o ID da conversa, conforme mencionado em Create expressions using Power Fx.
+- **Global.:** Para variáveis globais, úteis para compartilhar dados entre diferentes partes do copilot.
+- **Topic.:** Para variáveis específicas de tópicos, usadas em fluxos de conversa.
 
 Exemplos de uso mais comuns:
 
-**- Mostrar a data atual:** = Today().
-**- Formatá-la:** = Format(Today(), "dddd, MMMM d, yyyy") (exibe, por exemplo, "Wednesday, February 26, 2025").
-**- Decidir respostas com base em condições:** If(Mood = "happy", "Great to hear that!", "Sorry to hear that.").
-**- Contar itens em uma lista: ** = CountIf(List, Condition). 
+- **Mostrar a data atual:** = Today().
+- **Formatá-la:** = Format(Today(), "dddd, MMMM d, yyyy") (exibe, por exemplo, "Wednesday, February 26, 2025").
+- **Decidir respostas com base em condições:** If(Mood = "happy", "Great to hear that!", "Sorry to hear that.").
+- **Contar itens em uma lista:** = CountIf(List, Condition). 
