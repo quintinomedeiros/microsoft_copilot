@@ -79,3 +79,5 @@ Exemplos de uso mais comuns:
 No copilot, ao criar uma respota, pode-se selecionar em "Avançado" a opção "Resposta Generativa".
 
 Ela recebe como parâmetros a última resposta do usuário ("Activity.Text"); as bases de conhecimento; nível de criatividade das respostas; prompt para o modelo; latência da mensagem; carregamento de informações na web.
+
+Em conhecimento é possível incluir sites públicos, sharepoint, dataverse e algumas conexões como bases de conhecimento (Knowledge Sources) para treinar o modelo .
