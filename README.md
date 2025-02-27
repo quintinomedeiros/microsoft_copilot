@@ -84,8 +84,14 @@ Em conhecimento é possível incluir sites públicos, sharepoint, dataverse e al
 
 ## 🔐 Autenticação
 
-**Autenticação** é o processo de verificar a identidade de um usuário ou sistema antes de conceder acesso a recursos ou informações protegidas. Ela envolve **uso de credenciais**, como nome de usuário e senha, ma pode incluir também autenticação de dois fatores (2FA) ou biometria (impressão digital ou reconhecimento facial).
+**Autenticação** é o processo de verificar a identidade de um usuário ou sistema antes de conceder acesso a recursos ou informações protegidas. Ela envolve **uso de credenciais**, como nome de usuário e senha, mas pode incluir também autenticação de dois fatores (2FA) ou biometria (impressão digital ou reconhecimento facial). A autenticação é especiamente importante para disponibilizar o chat em outros canais.
 
 Nos produtos do Copilot utilizam-se o **Azure Active Directory (Azure AD)** que é a plataforma de idenfidade da Microsoft que gerencia a autenticação de usuários de serviços com Teamns, Outlook e OneDrive; e o **SSO (Single Sign-On)**, que permite que os usuários acessem vários aplicativos com uma única autenticação.
 
 A autenticação tem como benefícios: segurança; proteção de dados sensíveis; controle de acesso; e permite estender os canais para plataformas externas.
+
+A configuração é feita individualmente por agente. Em **Configurações/Segurança** pode-se selecionar **Autenticar com a Microsoft** (utiliza usuário do Teams, Power Apps ou 365 Copilot) ou **Autenticar manualmente**. 
+
+Na autenticação manual, pode-se definir se a autenticação tem que ser feita para acessar o copiloto (permite pegar informações do usuário pra utilizar na interação) ou configurar como uma etapa dos tópicos quando houver a necessidade de autenticação para um determinado passso dele. Seleciona-se o provedor e as credenciais.
+
+No Azure, as credenciais estão no portal https://azure.com em **App registrations**. Deve-se copiar a URL de redirecionamento no Copilot para colar nas credenciais do Azure. A senha (**Client secret**) é obtida no Azure em Manage/Certificates & secrets. E o escopo em **Manage/API permissions/Add permission**.
