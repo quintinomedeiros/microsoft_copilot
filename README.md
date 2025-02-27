@@ -81,3 +81,11 @@ No copilot, ao criar uma respota, pode-se selecionar em "Avançado" a opção "R
 Ela recebe como parâmetros a última resposta do usuário ("Activity.Text"); as bases de conhecimento; nível de criatividade das respostas; prompt para o modelo; latência da mensagem; carregamento de informações na web.
 
 Em conhecimento é possível incluir sites públicos, sharepoint, dataverse e algumas conexões como bases de conhecimento (Knowledge Sources) para treinar o modelo .
+
+## 🔐 Autenticação
+
+**Autenticação** é o processo de verificar a identidade de um usuário ou sistema antes de conceder acesso a recursos ou informações protegidas. Ela envolve **uso de credenciais**, como nome de usuário e senha, ma pode incluir também autenticação de dois fatores (2FA) ou biometria (impressão digital ou reconhecimento facial).
+
+
+
+
