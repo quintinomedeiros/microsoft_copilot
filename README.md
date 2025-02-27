@@ -88,4 +88,4 @@ Em conhecimento é possível incluir sites públicos, sharepoint, dataverse e al
 
 Nos produtos do Copilot utilizam-se o **Azure Active Directory (Azure AD)** que é a plataforma de idenfidade da Microsoft que gerencia a autenticação de usuários de serviços com Teamns, Outlook e OneDrive; e o **SSO (Single Sign-On)**, que permite que os usuários acessem vários aplicativos com uma única autenticação.
 
-
+A autenticação tem como benefícios: segurança; proteção de dados sensíveis; controle de acesso; e permite estender os canais para plataformas externas.
