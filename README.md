@@ -80,7 +80,13 @@ No copilot, ao criar uma respota, pode-se selecionar em "Avançado" a opção "R
 
 Ela recebe como parâmetros a última resposta do usuário ("Activity.Text"); as bases de conhecimento; nível de criatividade das respostas; prompt para o modelo; latência da mensagem; carregamento de informações na web.
 
-Em conhecimento é possível incluir sites públicos, sharepoint, dataverse e algumas conexões como bases de conhecimento (Knowledge Sources) para treinar o modelo .
+Em conhecimento é possível incluir sites públicos, sharepoint, dataverse e algumas conexões como bases de conhecimento (Knowledge Sources) para treinar o modelo.
+
+## 🔛 Canais
+
+Os canais são plataformas nos quais os copilotos ou agentes serão disponibilizados para a interação com o usuário final. São exemplos de canais: Microsoft Teams, WhatsApp, Telegram, site customizado, site de demonstração, Slack, Facebook.
+
+Eles podem ser **públicos** (qualquer pessoa pode ter acesso) ou **privados** (acessível somente para usuários logados).
 
 ## 🔐 Autenticação
 
